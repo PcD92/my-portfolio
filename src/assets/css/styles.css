@@ -138,6 +138,11 @@ nav ul li {
     text-align: right;
 }
 
+.breaks {
+    color: white;
+    size: 50rem;
+}
+
 .projects {
     max-width: 68.75rem;
     margin: auto;
