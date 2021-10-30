@@ -7,7 +7,7 @@
                         --bolder-font: 900;
                         --bg-color: gray;
                         --primary-color: #4756df;
-                        --secondary-color: #ff7235;
+                        --secondary-color: lime;
                         --primary-shadow: #8b8eaf;
                         --secondary-shadow: #a17a69;
                         --bottom-margin: 0.5rem;
@@ -103,9 +103,13 @@
                     }
                     
                     .hero img {
-                        height: 37.5rem;
-                        width: auto;
-                        overflow: auto;
+                        height: 20%;
+                        background-repeat: no-repeat;
+                        position: relative;
+                        height: 100%;
+                        border-radius: 25px;
+                        max-width: 100%;
+                        max-height: 100%;
                     }
                     
                     .bio {
@@ -113,6 +117,16 @@
                         padding: 0.625rem;
                         border-radius: 6px;
                         box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+                    }
+                    
+                    .bio-animate {
+                        text-align: center;
+                        justify-content: baseline;
+                        position: absolute;
+                        top: 50%;
+                        left: 80%;
+                        transform: translate(-50%, -50%);
+                        color: white;
                     }
                     
                     .bio h1 {
