@@ -14,6 +14,7 @@
                             --bottom-margin-2: 1rem;
                             --line-height: 1.7rem;
                             --transition: 0.3s;
+                            --line-color: var(--primary-color)
                         }
                         /* Variables end */
                         
@@ -27,6 +28,7 @@
                             padding: 0;
                             box-sizing: border-box;
                         }
+                        /* Nav Section */
                         
                         ul {
                             list-style-type: none;
@@ -90,10 +92,13 @@
                             cursor: pointer;
                             display: none;
                         }
-                        /*-- hero --*/
+                        /* End of Nav Section */
+                        /*-- Hero Section--*/
                         
                         .hero {
                             display: flex;
+                            flex-direction: column;
+                            gap: 0;
                             align-items: center;
                             justify-content: center;
                             max-width: 68.75rem;
@@ -110,7 +115,8 @@
                             max-width: 100%;
                             max-height: 100%;
                         }
-                        /* about me */
+                        /*-- End of Hero Section --*/
+                        /* About Me */
                         
                         .bio-animate {
                             color: var(--primary-color);
@@ -143,15 +149,8 @@
                             border-width: 3px;
                             width: auto;
                         }
-                        /* projects section */
-                        
-                        #container:hover .projects {
-                            background-color: var(--bg-color);
-                            padding: 32px 0;
-                            margin-top: 2rem;
-                            background-image: url("https://img.wallpapersafari.com/desktop/1280/1024/97/73/lrF7O8.png");
-                            margin-left: 255px;
-                        }
+                        /* End of About Me */
+                        /* Projects Section */
                         
                         .project-pic {
                             width: 70%;
@@ -160,8 +159,8 @@
                         
                         .projects-container {
                             display: flex;
-                            align-items: center;
                             justify-content: center;
+                            flex-wrap: wrap;
                         }
                         
                         .projects-title {
@@ -174,23 +173,18 @@
                         .project-container {
                             text-align: center;
                             align-self: center;
+                            border-radius: 11px;
                             width: 350px;
+                            margin: 10px;
                             padding: 1rem;
                             height: auto;
                             display: grid;
-                        }
-                        
-                        .project-card {
-                            background-color: #fff;
-                            border-radius: 11px;
-                            box-shadow: 0 3px 10px var(--primary-shadow);
-                            padding: 20px;
-                            margin: 10px;
+                            display: flex;
                         }
                         
                         .project-card-01 {
                             background-color: #fff;
-                            border-radius: 11px;
+                            border-radius: 11 px;
                             box-shadow: 0 3px 10px var(--primary-shadow);
                             padding: 20px;
                             margin: 10px;
@@ -257,28 +251,8 @@
                             grid-row-end: 2;
                             position: relative;
                         }
-                        
-                        .project-card-01:hover {
-                            background-color: #fff;
-                            border-radius: 11px;
-                            box-shadow: 0 3px 10px var(--primary-shadow);
-                            padding: 20px;
-                            margin: 10px;
-                            color: var(--secondary-color);
-                            border-bottom: 2px solid var(--secondary-color);
-                        }
-                        
-                        .project-card-02:hover {
-                            background-color: #fff;
-                            border-radius: 11px;
-                            box-shadow: 0 3px 10px var(--primary-shadow);
-                            padding: 20px;
-                            margin: 10px;
-                            color: var(--secondary-color);
-                            border-bottom: 2px solid var(--secondary-color);
-                        }
-                        /*-- */
-                        /* Style all font awesome icons */
+                        /* End of Project Section */
+                        /* Icons */
                         
                         .fa {
                             padding: 20px;
