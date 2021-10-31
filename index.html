@@ -15,11 +15,11 @@
 <body>
     <!-- Navbar -->
     <nav>
-        <h1>Perry Davis Jr.</h1>
+        <h1 id="home">Perry Davis Jr.</h1>
         <ul class="navigation">
+            <li><a href="#home" class="nav-link">Home</a></li>
             <li><a href="#about" class="nav-link">About</a></li>
             <li><a href="#projects" class="nav-link">Projects</a></li>
-            <li><a href="#skills" class="nav-link">Skills</a></li>
             <li><a href="./contact-page.html" target="blank" class="nav-link">Contact</a></li>
         </ul>
         <button class="burger-menu" id="burger-menu">
@@ -28,73 +28,63 @@
     </nav>
 
     <!-- Hero Section -->
-    <section class="hero" id="about">
+    <section class="hero">
         <img src="./src/assets/images/52eb0b4f9a709502b4f3c8a0a693cdb5.jpeg" alt="PcD92 " loading="lazy " class="hero-img " />
-        <div class="bio-animate ">
-            <h2 class="bio-title ">About Me</h2>
-            <p class="bio-text ">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia sed dolorem fugit sapiente porro veniam pariatur dolore nostrum delectus inventore tempore minus nemo, iste ullam illo laboriosam maiores repudiandae quos!
-            </p>
-        </div>
+
     </section>
-    <!-- More about -->
+    <section class="bio-animate " id="about">
+        <h2 class="about-me ">About Me</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt ipsum, autem deleniti cupiditate molestias quis unde quae totam porro dicta iure animi inventore, veniam hic! Omnis nulla,
+            delectus a voluptatibus
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur nostrum dolor minus, libero delectus praesentium perferendis
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, consequuntur labore? Ea totam voluptas amet!
+        </p>
+    </section>
     <hr class="breaks ">
     <!-- Projects section -->
-    <h2 class="projects-title" id="projects">Projects</h2>
-    <div class="projects-container ">
-        <div class="project-container project-card ">
-            <img src="./src/assets/images/Skill-03.jpeg " alt="first " loading="lazy " class="project-pic " />
-            <h3 class="project-title ">placeholder</h3>
-            <p class="project-details ">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas ratione vel inventore labore commodi modi quos culpa aut saepe! Alias!
-            </p>
-            <a href="# " target="_blank " class="project-link ">Check it Out</a>
+    <div>
+        <h2 class="projects-title" id="projects">Projects</h2>
+        <div class="projects-container ">
+            <div class="project-container project-card-01 ">
+                <a href="https://github.com/PcD92" target="https://github.com/PcD92 "> <img src="./src/assets/images/Skill-03.jpeg " alt="first " loading="lazy " class="project-pic " />
+                    <h3 class="project-title ">placeholder</h3>
+            </div>
+            <div class="project-container project-card-02 ">
+                <img src="./src/assets/images/Skill-03.jpeg " alt="first " loading="lazy " class="project-pic " />
+                <h3 class="project-title ">placeholder</h3>
+            </div>
+            <div class="project-container project-card-03 ">
+                <img src="./src/assets/images/Skill-02.jpeg " alt="second " loading="lazy " class="project-pic " />
+                <h3 class="project-title ">placeholder</h3>
+            </div>
+            <div class="project-container project-card-04 ">
+                <img src="./src/assets/images/Skill-01.jpeg " alt="third " loading="lazy " class="project-pic " />
+                <h3 class="project-title ">placeholder</h3>
+            </div>
         </div>
-        <div class="project-container project-card ">
-            <img src="./src/assets/images/Skill-03.jpeg " alt="first " loading="lazy " class="project-pic " />
-            <h3 class="project-title ">placeholder</h3>
-            <p class="project-details ">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas ratione vel inventore labore commodi modi quos culpa aut saepe! Alias!
-            </p>
-            <a href="# " target="_blank " class="project-link ">Check it Out</a>
+        </section>
+
+
+        <!-- Social accounts - Fixed to the right -->
+        <hr class="breaks ">
+
+        <div class="socials ">
+            <a href="# " target="_blank "><img src="./src/assets/images/twitter.png " alt="Twitter " loading="lazy " class="socicon " /></a>
+            <a href="# " target="_blank "><img src="./src/assets/images/favpng_instagram-logo.png " alt="Instagram " loading="lazy " class="socicon " /></a>
+            <a href="https://www.linkedin.com/in/perry-davis-jr-a23b5157/ " target="_blank "><img src="./src/assets/images/pngwing.com (1).png " alt="Linkedin " loading="lazy " class="socicon " /></a>
+            <a href="https://github.com/PcD92 " target="_blank "><img src="./src/assets/images/git.png " alt="Github " class="socicon " /></a>
         </div>
-        <div class="project-container project-card ">
-            <img src="./src/assets/images/Skill-02.jpeg " alt="second " loading="lazy " class="project-pic " />
-            <h3 class="project-title ">placeholder</h3>
-            <p class="project-details ">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas ratione vel inventore labore commodi modi quos culpa aut saepe! Alias!
-            </p>
-            <a href="# " target="_blank " class="project-link ">Check it Out</a>
-        </div>
-        <div class="project-container project-card ">
-            <img src="./src/assets/images/Skill-01.jpeg " alt="third " loading="lazy " class="project-pic " />
-            <h3 class="project-title ">placeholder</h3>
-            <p class="project-details ">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas ratione vel inventore labore commodi modi quos culpa aut saepe! Alias!
-            </p>
-            <a href="# " target="_blank " class="project-link ">Check it Out</a>
-        </div>
-    </div>
-    </section>
-    <hr class="breaks ">
 
-    <!-- Skills section -->
 
-    <!-- Contact section -->
-    <br class="breaks ">
 
-    <div class="socials ">
-        <a href="# " target="_blank "><img src="./src/assets/images/twitter.png " alt="Twitter " loading="lazy " class="socicon " /></a>
-        <a href="# " target="_blank "><img src="./src/assets/images/favpng_instagram-logo.png " alt="Instagram " loading="lazy " class="socicon " /></a>
-        <a href="https://www.linkedin.com/in/perry-davis-jr-a23b5157/ " target="_blank "><img src="./src/assets/images/pngwing.com (1).png " alt="Linkedin " loading="lazy " class="socicon " /></a>
-        <a href="https://github.com/PcD92 " target="_blank "><img src="./src/assets/images/git.png " alt="Github " class="socicon " /></a>
-    </div>
+        <!-- Scroll to top -->
 
-    <!-- Social accounts - Fixed to the right -->
-
-    <!-- Scroll to top -->
-
-    <!-- Footer section -->
+        <!-- Footer section -->
 
 </body>
 
