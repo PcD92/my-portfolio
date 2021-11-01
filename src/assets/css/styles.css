@@ -114,6 +114,7 @@
                             border-radius: 25px;
                             max-width: 100%;
                             max-height: 100%;
+                            display: flex;
                         }
                         /*-- End of Hero Section --*/
                         /* About Me */
