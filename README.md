@@ -17,6 +17,7 @@ GIVEN I need to sample a potential employee's previous work WHEN I load their po
 Mock-Up
 
 The following animation shows the web application's appearance and functionality:
+[PcD _ Web Developer.pdf](https://github.com/PcD92/my-portfolio/files/7450626/PcD._.Web.Developer.pdf)
 
 
 Technologies used
